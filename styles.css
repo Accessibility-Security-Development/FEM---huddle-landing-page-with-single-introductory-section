@@ -201,6 +201,6 @@ body {
   .icons {
     position: relative;
     left: 130%;
-    top: 130%;
+    bottom: 0;
   }
 }
