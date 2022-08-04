@@ -173,7 +173,7 @@ body {
   .right {
     grid-area: right;
     position: relative;
-    top: 10%;
+    top: 20%;
   }
 
   .component__mockup {
@@ -184,23 +184,23 @@ body {
     font-size: 40px;
     line-height: 60px;
     text-align: left;
-    padding-left: 10px;
+    margin-left: 55px;
   }
 
   .component__text {
     font-size: 18px;
     line-height: 27px;
     text-align: left;
-    padding-left: 10px;
+    margin-left: 20px;
   }
 
   .component__button {
-    margin: 10px;
+    margin-left: 55px;
   }
 
   .icons {
     position: relative;
     left: 130%;
-    bottom: 0;
+    bottom: -120%;
   }
 }
