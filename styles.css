@@ -163,13 +163,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'left right';
-    margin: 0 auto;
   }
 
   .left {
     grid-area: left;
     position: relative;
-    /* left: -30%; */
+    left: -30%;
   }
 
   .right {
