@@ -167,7 +167,7 @@ body {
   .left {
     grid-area: left;
     position: relative;
-    left: -50%;
+    left: -40%;
   }
 
   .right {
