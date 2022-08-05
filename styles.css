@@ -163,10 +163,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'left right';
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 10%;
   }
 
   .left {
@@ -207,5 +205,14 @@ body {
     position: relative;
     left: 130%;
     bottom: -90%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .content-wrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
