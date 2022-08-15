@@ -60,11 +60,6 @@ body {
   font-weight: bold;
 }
 
-.attribution:hover {
-  transform: scale(2);
-  font-style: italic;
-}
-
 .component__logo {
   position: relative;
   width: 40%;
@@ -172,6 +167,11 @@ body {
   .attribution {
     position: absolute;
     bottom: 0;
+  }
+
+  .attribution:hover {
+    transform: scale(2);
+    font-style: italic;
   }
 
   .content-wrap {
