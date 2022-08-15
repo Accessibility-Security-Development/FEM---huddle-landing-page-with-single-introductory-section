@@ -26,15 +26,16 @@ body {
 
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
-  width: 374px;
-  height: auto;
-  max-width: 374px;
-  margin: 0 auto;
 }
 
 .page-container {
   position: relative;
   min-height: 100vh;
+
+  width: 374px;
+  height: auto;
+  max-width: 374px;
+  margin: 0 auto;
 }
 
 .content-wrap {
@@ -50,10 +51,18 @@ body {
   /* Footer height */
   font-size: 11px;
   text-align: center;
+  color: black;
+  font-weight: bold;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  font-weight: bold;
+}
+
+.attribution:hover {
+  transform: scale(2);
+  font-style: italic;
 }
 
 .component__logo {
@@ -147,6 +156,12 @@ body {
 
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+  }
+
+  .page-container {
+    position: relative;
+    min-height: 100vh;
+
     width: 100%;
     height: auto;
     max-width: 1024px;
