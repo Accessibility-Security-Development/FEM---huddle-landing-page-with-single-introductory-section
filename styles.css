@@ -161,17 +161,11 @@ body {
     height: auto;
     max-width: 1024px;
     margin: 0 auto;
-    overflow: hidden;
   }
 
   .attribution {
     position: absolute;
     bottom: 0;
-  }
-
-  .attribution:hover {
-    transform: scale(2);
-    font-style: italic;
   }
 
   .content-wrap {
@@ -219,7 +213,7 @@ body {
   .icons {
     position: relative;
     left: 130%;
-    bottom: -90%;
+    bottom: -80%;
   }
 }
 
