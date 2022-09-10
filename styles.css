@@ -13,12 +13,12 @@
   --color-soft-magenta: hsl(300, 72%, 56%);
 }
 
-.transparent {
-  opacity: 0.01;
-}
-
-.non-transparent {
-  opacity: 0.9;
+.skip {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  left: -30px;
 }
 
 body {
@@ -167,6 +167,10 @@ body {
 
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+  }
+
+  .skip {
+    left: -100px;
   }
 
   .page-container {
