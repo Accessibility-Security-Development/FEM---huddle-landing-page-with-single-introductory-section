@@ -219,7 +219,7 @@ body {
   }
 
   .component__button {
-    margin-left: 55px;
+    left: 55px;
   }
 
   .icons {
