@@ -13,8 +13,12 @@
   --color-soft-magenta: hsl(300, 72%, 56%);
 }
 
-html {
-  font-size: 16px;
+.transparent {
+  opacity: 0.01;
+}
+
+.non-transparent {
+  opacity: 0.9;
 }
 
 body {
